@@ -4,13 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="App-header flex w-full h-[80px] bg-black text-white justify-between items-center px-[20px]">
+        <img src={logo} className="App-logo w-[70px] h-[70px]" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
-          className="App-link"
+          className="text-[#eee]"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
