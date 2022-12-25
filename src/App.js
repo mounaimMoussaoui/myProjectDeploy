@@ -17,26 +17,26 @@ function App() {
             <ul className="nav-bar flex flex-col gap-4">
             <li className="px-4 active">
                   <Route exact path="/my-project" element={<Home />} >
-                    <NavLink to="/" className="flex items-center gap-3">
+                    {/* <NavLink to="/" className="flex items-center gap-3"> */}
                       <AiOutlineHome className="w-[25px] h-[25px]" />
                       <span className="hidden md:block">Home</span>
-                    </NavLink>
+                    {/* </NavLink> */}
                   </Route>
             </li>
             <li className="px-4">
               <Route path="/about" element={<About />} >
-                <NavLink to={"/about"} className="flex items-center gap-3 whitespace-nowrap">
+                {/* <NavLink to={"/about"} className="flex items-center gap-3 whitespace-nowrap"> */}
                     <AiOutlineUser className="w-[25px] h-[25px]" />
                     <span className="hidden md:block">About Me</span>
-                </NavLink>
+                {/* </NavLink> */}
               </Route>
             </li>
             <li className="px-4">
               <Route path="/contact" element={<Contact />} >
-                <NavLink to="/contact" className="flex items-center gap-3">
+                {/* <NavLink to="/contact" className="flex items-center gap-3"> */}
                     <AiOutlineContacts className="w-[25px] h-[25px]" />
                     <span className="hidden md:block">Contact</span>
-                </NavLink>
+                {/* </NavLink> */}
               </Route>
             </li>
             {/* <li>
@@ -47,10 +47,10 @@ function App() {
             </li> */}
             <li className="px-4">
               <Route path="/portfolio" element={<Portfolio />} >
-                <NavLink to="/portfolio" className="flex items-center gap-3">
+                {/* <NavLink to="/portfolio" className="flex items-center gap-3"> */}
                     <AiOutlineFundProjectionScreen className="w-[25px] h-[25px]" />
                     <span className="hidden md:block">portfolio</span>
-                </NavLink>
+                {/* </NavLink> */}
               </Route>
             </li>
             </ul>
