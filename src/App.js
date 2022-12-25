@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+
+import Layout from './pages/Layout'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header flex w-full h-[80px] bg-black text-white justify-between items-center px-[20px]">
+    <Layout />
+      {/* <header className="App-header flex w-full h-[80px] bg-black text-white justify-between items-center px-[20px]">
         <img src={logo} className="App-logo w-[70px] h-[70px]" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +20,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+
     </div>
   );
 }
