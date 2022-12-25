@@ -1,7 +1,7 @@
-import Home from '../src/pages/Home';
-import Contact from '../src/pages/Contact';
-import About from '../src/pages/About';
-import Portfolio from '../src/pages/Portfolio';
+import Home from './src/pages/Home';
+import Contact from './src/pages/Contact';
+import About from './src/pages/About';
+import Portfolio from './src/pages/Portfolio';
 import './App.css';
 // import Layout from './pages/Layout'
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
